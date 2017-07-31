@@ -43,7 +43,6 @@ const createStore = (initialState = {}) => {
       store.replaceReducer(reducers(store.asyncReducers))
     })
   }
-  debugger;
   return store
 }
 
